@@ -38,9 +38,9 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import my_img from './my.jpg';
 import i_mobile from './i_mobile.png';
 import display_hub from './display_hub.webp';
-import hotel from './3af06491-dc2d-4ee4-9a2f-db9f5d1b091e.jpg';
+import hotel from './Hotel-Management-System.webp';
 import raiway from './railway.jpg';
-import portfolio from './3af06491-dc2d-4ee4-9a2f-db9f5d1b091e.jpg';
+import portfolio from './Screenshot 2025-12-27 134324.png';
 export const assets = {
   i_mobile,
   display_hub,
@@ -92,22 +92,22 @@ export const workData = [
     title: 'POS System - Crazy Retail & Wholesale',
     description:
       'Mobile POS system with Spring Boot, React, MySQL, microservices, and POS hardware integration.',
-    bgImage: assets.raiway,
+    bgImage: assets.i_mobile,
   },
   {
     title: 'Hotel Management System - Skyline Hotel',
     description: 'Hotel management system using React, Node.js, Express, and MongoDB.',
-    bgImage: assets.raiway,
+    bgImage: assets.hotel,
   },
   {
     title: 'Display Hub - Pokunuwita POS System',
     description: 'Retail POS system built with React, MySQL, Node.js, and Express.',
-    bgImage: assets.raiway,
+    bgImage: assets.display_hub,
   },
   {
     title: 'Portfolio Website',
     description: 'My personal portfolio website created with Next.js.',
-    bgImage: assets.raiway,
+    bgImage: assets.portfolio,
   },
   {
     title: 'Railway Website',
@@ -153,7 +153,7 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: 'Education',
-    description: 'B.Tech in Computer Science',
+    description: 'Bachelor of Applied IT at SLTC Research University',
   },
   {
     icon: assets.project_icon,

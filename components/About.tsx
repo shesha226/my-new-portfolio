@@ -108,17 +108,21 @@ function About() {
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
-                whileHover={{ scale: 1.05 }}
                 key={index}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-purple-50 dark:hover:bg-gray-700 hover:-translate-y-1 duration-500"
+                whileHover={{ scale: 1.05 }}
+                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer
+               hover:bg-purple-50 dark:hover:bg-gray-700
+               hover:-translate-y-1 duration-500"
               >
-                <Image
-                  src={theme === 'dark' && iconDark ? iconDark : icon}
-                  alt={title}
-                  className="mt-3 w-7"
-                />
-                <h3 className="my-4 font-semibold">{title}</h3>
-                <p className="text-sm">{description}</p>
+                <a href="#work" className="block h-full">
+                  <Image
+                    src={theme === 'dark' && iconDark ? iconDark : icon}
+                    alt={title}
+                    className="mt-3 w-7"
+                  />
+                  <h3 className="my-4 font-semibold">{title}</h3>
+                  <p className="text-sm">{description}</p>
+                </a>
               </motion.li>
             ))}
           </motion.ul>
@@ -145,7 +149,6 @@ function About() {
                 className="flex flex-col items-center justify-center w-16 h-16 duration-500 border border-gray-400 rounded-full cursor-pointer hover:bg-purple-100 hover:-translate-y-1"
               >
                 {tech.icon}
-                <span className="mt-1 text-xs">{tech.name}</span>
               </motion.li>
             ))}
           </motion.ul>

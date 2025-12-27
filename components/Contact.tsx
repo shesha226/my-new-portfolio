@@ -56,7 +56,7 @@ function Contact() {
         transition={{ delay: 0.5, duration: 0.5 }}
         className={`text-center mb-2 text-5xl ${textColor}`}
       >
-        My Services
+        Get In touch
       </motion.h2>
 
       <motion.p
@@ -65,7 +65,7 @@ function Contact() {
         transition={{ delay: 0.3, duration: 0.5 }}
         className={`text-center max-w-2xl mx-auto mt-5 mb-12 ${subTextColor}`}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        If you are interested in hiring me, please submit your details or contact me via email.
       </motion.p>
 
       <motion.form

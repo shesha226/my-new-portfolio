@@ -113,7 +113,7 @@ function Navbar() {
 
           {/* Hamburger */}
           <button className="block ml-3 md:hidden" onClick={openSideMenu}>
-            <Image src={assets.menu_black} alt="Menu" className="w-6" />
+            <Image src={assets.menu_black} alt="Menu" className="right-0 w-6" />
           </button>
         </div>
 
