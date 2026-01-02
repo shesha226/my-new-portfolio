@@ -5,12 +5,18 @@ import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import { assets } from '@/assets/assets';
 import { FiSun, FiMoon } from 'react-icons/fi';
+import Popup from './Popup';
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const sideMenuRef = useRef<HTMLUListElement>(null);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => setIsPopupOpen(true);
+  const closePopup = () => setIsPopupOpen(false);
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
