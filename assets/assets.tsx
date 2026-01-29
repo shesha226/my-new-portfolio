@@ -41,6 +41,7 @@ import display_hub from './display_hub.webp';
 import hotel from './Hotel-Management-System.webp';
 import raiway from './railway.jpg';
 import portfolio from './Screenshot 2025-12-27 134324.png';
+import meta_fix from './meta_fix.png';
 export const assets = {
   i_mobile,
   display_hub,
@@ -85,6 +86,7 @@ export const assets = {
   right_arrow_bold,
   right_arrow_bold_dark,
   my_img,
+  meta_fix,
 };
 
 export const workData = [
@@ -113,6 +115,12 @@ export const workData = [
     title: 'Railway Website',
     description: 'Railway booking website using React, Node.js, Express, Mongoose, and MongoDB.',
     bgImage: assets.raiway,
+  },
+  {
+    title: 'Meta-Fix – Movie Download Platform',
+    description:
+      'Movie download platform backend using Laravel, PHP, MySQL, RESTful APIs, MVC architecture, Eloquent ORM, and RBAC for secure and maintainable operations.',
+    bgImage: assets.meta_fix,
   },
 ];
 
@@ -146,20 +154,22 @@ export const infoList = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: 'Languages',
-    description: 'HTML, CSS, JavaScript React Js, Next Js',
+    title: 'Languages & Frameworks',
+    description:
+      'HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Node.js, PHP, Laravel, Spring Boot',
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: 'Education',
-    description: 'Bachelor of Applied IT at SLTC Research University',
+    description: 'Bachelor of Applied IT, SLTC Research University',
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: 'Projects',
-    description: 'Built more than 5 projects',
+    description:
+      'Developed **5+ full-stack projects** covering backend, frontend, and DevOps workflows',
   },
 ];
 

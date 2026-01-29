@@ -10,26 +10,30 @@ const serviceData = [
   {
     icon: <SiNodedotjs size={40} color="#68A063" />,
     title: 'Backend Development',
-    description: 'Building robust server-side applications using Node.js, Express, and databases.',
+    description:
+      'Building robust server-side apps with **Node.js, Express, PHP, Laravel, Spring Boot** and **MySQL/MongoDB**, implementing **RESTful APIs and RBAC**.',
     link: '',
   },
+
   {
     icon: <SiReact size={40} color="#61DBFB" />,
     title: 'Frontend Development',
-    description: 'Creating responsive and dynamic user interfaces with React and Next.js.',
+    description:
+      'Building **responsive and dynamic UIs** using **React, Next.js, HTML, CSS, and JavaScript/TypeScript**.',
     link: '',
   },
+
   {
     icon: <SiFigma size={40} color="#F24E1E" />,
     title: 'UI/UX Design',
-    description: 'Designing user-friendly interfaces and smooth user experiences.',
+    description: 'Designing **user-friendly interfaces** and **smooth user experiences**.',
     link: '',
   },
   {
     icon: <SiJenkins size={40} color="#D24939" />,
-    title: 'CI/CD',
+    title: 'CI/CD & DevOps',
     description:
-      'Implementing continuous integration and delivery pipelines for faster deployments.',
+      'Building **continuous integration and deployment pipelines** for faster, reliable releases using **Jenkins, Docker, and Git**.',
     link: '',
   },
 ];

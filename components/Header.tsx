@@ -72,7 +72,7 @@ function Header() {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
           href="./sample-resume.pdf"
-          download="sample-resume.pdf"
+          download="Shashika Shehan Resume.pdf"
           className="flex items-center gap-2 px-8 py-3 transition border border-gray-500 rounded-full sm:px-10 hover:bg-indigo-600 hover:border-indigo-600 hover:text-white"
         >
           My Resume

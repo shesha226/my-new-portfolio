@@ -13,6 +13,11 @@ import {
   SiJavascript,
   SiTypescript,
   SiHtml5,
+  SiPhp,
+  SiLaravel,
+  SiDocker,
+  SiGit,
+  SiCircleci,
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
 interface InfoItem {
@@ -35,7 +40,13 @@ function About() {
     { name: 'JavaScript', icon: <SiJavascript size={30} color="#F7DF1E" /> },
     { name: 'TypeScript', icon: <SiTypescript size={30} color="#3178C6" /> },
     { name: 'Java', icon: <FaJava size={30} color="#007396" /> },
+    { name: 'PHP', icon: <SiPhp size={30} color="#777BB4" /> },
+    { name: 'Laravel', icon: <SiLaravel size={30} color="#FF2D20" /> },
+    { name: 'Docker', icon: <SiDocker size={30} color="#0db7ed" /> },
+    { name: 'Git', icon: <SiGit size={30} color="#F05032" /> },
+    { name: 'CI/CD', icon: <SiCircleci size={30} color="#343434" /> },
   ];
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -70,10 +81,10 @@ function About() {
         className="max-w-2xl mx-auto mt-5 mb-12 text-center "
       >
         I am a Full-Stack Web Developer from Sri Lanka, passionate about building modern,
-        responsive, and user-friendly web applications. I work with technologies like React,
-        Next.js, Node.js, and databases like MongoDB and MySQL. I enjoy solving problems and
-        creating high-quality solutions. I also work with HTML, CSS, JavaScript, TypeScript, and
-        Java.
+        responsive, and user-friendly web applications. I work with React, Next.js, Node.js,
+        Laravel, Spring Boot, PHP, and databases such as MySQL and MongoDB. Skilled in HTML, CSS,
+        JavaScript, TypeScript, and Java, I enjoy solving problems and creating high-quality,
+        scalable solutions that deliver great user experiences.
       </motion.p>
 
       <motion.div
