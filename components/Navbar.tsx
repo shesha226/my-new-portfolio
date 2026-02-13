@@ -57,24 +57,21 @@ function Navbar() {
 
       {/* Navbar */}
       <nav
-        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 transition-colors duration-500 ${
-          isScrolled ? 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50' : ''
-        }`}
+        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 transition-colors duration-500 ${isScrolled ? 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50' : ''
+          }`}
       >
         <a
           href="#top"
-          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 font-ovo ${
-            isScrolled ? '' : 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50'
-          }`}
+          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 font-ovo ${isScrolled ? '' : 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50'
+            }`}
         >
           Portfolio
         </a>
 
         {/* Desktop menu */}
         <ul
-          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
-            isScrolled ? '' : 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50'
-          }`}
+          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScrolled ? '' : 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50'
+            }`}
         >
           {menuItems.map((item, index) => (
             <li key={index} className="relative">
@@ -109,9 +106,8 @@ function Navbar() {
 
           <a
             href="#contact"
-            className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 font-ovo ${
-              isScrolled ? '' : 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50'
-            }`}
+            className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 font-ovo ${isScrolled ? '' : 'bg-white bg-opacity-50 backdrop-blur shadow-sm dark:bg-gray-900/50'
+              }`}
           >
             Contact
             <Image src={assets.arrow_icon} alt="Arrow" className="w-3" />
